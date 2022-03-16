@@ -7,3 +7,4 @@ dev
 .vscode
 secret_key.js
 .DS_Store
+.idea

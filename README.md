@@ -1,9 +1,14 @@
-# Auto Skip for Prime and NetFlix (ASPN)
+# Auto Skipper 
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/users/geikbfhmddindncdioecbgpehlhencaj?color=g&label=Chrome%20Store%20Users)](https://chrome.google.com/webstore/detail/auto-skip-intro-for-prime/geikbfhmddindncdioecbgpehlhencaj)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/geikbfhmddindncdioecbgpehlhencaj)
+<!--[![Chrome Web Store](https://img.shields.io/chrome-web-store/users/geikbfhmddindncdioecbgpehlhencaj?color=g&label=Chrome%20Store%20Users)](https://chrome.google.com/webstore/detail/auto-skip-intro-for-prime/geikbfhmddindncdioecbgpehlhencaj)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/geikbfhmddindncdioecbgpehlhencaj)-->
 
-Auto Skip Intro, Recaps for Prime and NetFlix
+Auto Skip Intro, Recaps for Prime, Netflix and Other OTTs
+
+OTTs Supported
+- Netflix
+- Prime Video
+
 
 It is very tedious to skip those long intro sequences and recaps on Netflix and Amazon Prime, you have to press the skip button each time.
 
@@ -18,11 +23,7 @@ We have a solution for our super lazy user. Now you can:
 
 ## Chrome Store Link
 
-https://chrome.google.com/webstore/detail/auto-skip-intro-for-prime/geikbfhmddindncdioecbgpehlhencaj?hl=en&gl=IN
-
-## Product Hunt
-
-https://www.producthunt.com/posts/auto-skip-intro-for-netflix-and-prime
+<!--https://chrome.google.com/webstore/detail/auto-skip-intro-for-prime/geikbfhmddindncdioecbgpehlhencaj?hl=en&gl=IN-->
 
 ## Development
 
@@ -76,4 +77,4 @@ The data is totally anonymous, you can also verify the same in the network tab.
 ## Feedback
 
 If you like the extension and it solves your problem please leave a rating and review on the chrom web store.
-Hit me up at `naman03malhotra@gmail.com` to say, Hi!
+Hit me up at `2000.aman.sinha@gmail.com` to say, Hi!

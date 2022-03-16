@@ -8,7 +8,15 @@ function toBase64(data) {
 }
 
 function sendData(data) {
-  fetch(`https://api.mixpanel.com/track/?data=${data}`);
+  const options = {
+    method: 'POST',
+    headers: {
+      Accept: 'text/plain',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify([data])
+  }
+  fetch(`https://api-eu.mixpanel.com/track`, options);
 }
 
 export function sendAnalytics(data) {
