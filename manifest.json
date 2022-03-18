@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Netflix Prime OTT Auto Skipper",
   "author": "Aman Kumar",
   "version": "1.0.0",
@@ -534,10 +534,9 @@
     }
   ],
   "background": {
-    "scripts": ["src/background.js"],
-    "persistent": false
+    "service_worker": "src/background.js"
   },
-  "browser_action": {
+  "action": {
     "default_icon": {
       "19": "src/assets/512.png",
       "38": "src/assets/512.png"
