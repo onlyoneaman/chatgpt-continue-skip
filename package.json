@@ -1,7 +1,7 @@
 {
-  "name": "netflix-prime-auto-skip",
-  "version": "3.4.1",
-  "description": "Auto Skip Intro, Recaps for Prime and Netflix",
+  "name": "netflix-prime-ott-auto-skip",
+  "version": "1.0.0",
+  "description": "Auto Skip Intro, Recaps for Prime, Netflix and OTTs",
   "source": "src/content_script.js",
   "main": "dist/bundle_new.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "publish": "rm -rf ../final_build && mkdir ../final_build/ && mkdir ../final_build/src/ && npm run copy",
     "final": "npm run build && npm run publish"
   },
-  "author": "Naman Malhotra",
+  "author": "Aman Kumar",
   "license": "ISC",
   "devDependencies": {
     "microbundle": "0.12.3"
