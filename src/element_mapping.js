@@ -5,7 +5,7 @@ import {
   NEXT_EPISODE,
   SKIP_ADS,
   NETFLIX,
-  PRIME,
+  PRIME, HOTSTAR, HOTSTAR_SKIP_INTRO, HOTSTAR_NEXT_EPISODE,
 } from "./utils/i18n";
 
 const locale = memoizedLocale("locale");
@@ -28,13 +28,36 @@ export const elementMapping = [
   },
   {
     type: NETFLIX,
-    selector: "[aria-label='Continue Playing']",
+    selector: "[aria-label='next-episode-seamless-button']",
     locale,
   },
   {
     type: NETFLIX,
     selector: ".interrupter-actions > .nf-icon-button:first-child",
     locale,
+  },
+  {
+    type: NETFLIX,
+    selector: "[data-uia='next-episode-seamless-button']",
+    //data-uia=next-episode-seamless-button
+    //data-uia=control-next
+    //aria-label=Next Episode
+    locale
+  },
+  {
+    type: HOTSTAR,
+    skipEvent: HOTSTAR_SKIP_INTRO,
+    selector: `//*[text()="${translateLocale(HOTSTAR_SKIP_INTRO).translatedText}"]`,
+    xpath: true,
+    ...translateLocale(HOTSTAR_SKIP_INTRO),
+  },
+  {
+    type: HOTSTAR,
+    skipEvent: HOTSTAR_NEXT_EPISODE,
+    selector: `//button[text()="${translateLocale(HOTSTAR_NEXT_EPISODE).translatedText}"]`,
+    xpath: true,
+    extraWait: true,
+    ...translateLocale(HOTSTAR_NEXT_EPISODE),
   },
   {
     type: PRIME,

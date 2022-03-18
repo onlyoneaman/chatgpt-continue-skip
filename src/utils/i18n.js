@@ -2,11 +2,14 @@ export const SKIP_INTRO = "skip_intro";
 export const SKIP_RECAP = "skip_recap";
 export const NEXT_EPISODE = "next_epi";
 export const SKIP_ADS = "skip_ads";
+export const HOTSTAR_SKIP_INTRO = "hotstar_skip_intro";
+export const HOTSTAR_NEXT_EPISODE = "hotstar_next_epi"
 
 export const LOADING_TEXT = "Skipping...";
 
 export const NETFLIX = "netflix";
 export const PRIME = "prime";
+export const HOTSTAR = "hotstar";
 
 export const i18nMap = {
   en_US: {
@@ -14,12 +17,16 @@ export const i18nMap = {
     skip_intro: "Skip Intro",
     skip_recap: "Skip Recap",
     skip_ads: "Skip",
+    hotstar_skip_intro: "Skip Intro",
+    hotstar_next_epi: "Next Episode"
   },
   en_GB: {
     next_epi: "Next Up",
     skip_intro: "Skip Intro",
     skip_recap: "Skip Recap",
     skip_ads: "Skip",
+    hotstar_skip_intro: "Skip Intro",
+    hotstar_next_epi: "Next Episode"
   },
   es_ES: {
     skip_intro: "Omitir introducción",
