@@ -1,7 +1,7 @@
 # Auto Skipper 
 
-<!--[![Chrome Web Store](https://img.shields.io/chrome-web-store/users/geikbfhmddindncdioecbgpehlhencaj?color=g&label=Chrome%20Store%20Users)](https://chrome.google.com/webstore/detail/auto-skip-intro-for-prime/geikbfhmddindncdioecbgpehlhencaj)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/geikbfhmddindncdioecbgpehlhencaj)-->
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/users/dempbimengdgfdahpccphckokknnappl?color=g&label=Chrome%20Store%20Users)](https://chrome.google.com/webstore/detail/netflix-prime-ott-auto-sk/dempbimengdgfdahpccphckokknnappl)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dempbimengdgfdahpccphckokknnappl)
 
 Auto Skip Intro, Recaps for Prime, Netflix and Other OTTs
 
@@ -23,7 +23,7 @@ We have a solution for our super lazy user. Now you can:
 
 ## Chrome Store Link
 
-<!--https://chrome.google.com/webstore/detail/auto-skip-intro-for-prime/geikbfhmddindncdioecbgpehlhencaj?hl=en&gl=IN-->
+https://chrome.google.com/webstore/detail/netflix-prime-ott-auto-sk/dempbimengdgfdahpccphckokknnappl?hl=en&gl=IN
 
 ## Development
 
