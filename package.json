@@ -1,7 +1,7 @@
 {
-  "name": "netflix-prime-ott-auto-skip",
+  "name": "chatgpt-skip",
   "version": "1.0.1",
-  "description": "Auto Skip Intro, Recaps for Prime, Netflix and OTTs",
+  "description": "Auto Skip ChatGPT Continue Button",
   "source": "src/content_script.js",
   "main": "dist/bundle_new.js",
   "scripts": {

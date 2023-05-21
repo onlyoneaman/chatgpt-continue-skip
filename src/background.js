@@ -1,3 +1,3 @@
 if (chrome.runtime) {
-  chrome.runtime.setUninstallURL("https://bit.ly/3JndTTl");
+  // chrome.runtime.setUninstallURL("https://bit.ly/3JndTTl");
 }
