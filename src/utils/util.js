@@ -1,4 +1,4 @@
-import { i18nMap, NETFLIX } from "./i18n";
+import { i18nMap } from "./i18n";
 
 export const memoizedLocale = memoize(getLocaleForPrime);
 
@@ -34,19 +34,10 @@ export function fetchDomNode(elements) {
 }
 
 export function getInnerText(domNode, type) {
-  if (type === NETFLIX && domNode.firstElementChild) {
-    return domNode.firstElementChild.innerText;
-  }
-
   return domNode.innerText;
 }
 
 export async function setInnerText(domNode, type, text) {
-  if (type === NETFLIX && domNode.firstElementChild) {
-    domNode.firstElementChild.innerText = text;
-    await sleep(250);
-    return;
-  }
 
   domNode.innerText = text;
   await sleep(500);
